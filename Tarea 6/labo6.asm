@@ -62,7 +62,7 @@ exit:
 	mov 	byte [BP+SI], "$"	
 	ret
 
-PeticionMsj		db	"Ingresa tu clave por favor (max: 5 caracteres): ", "$"		
+PeticionMsj		db	"Ingresa tu clave por favor: ", "$"		
 WelcomeMsj 		db 	"Bienvenido, felicidades lo hiciste bien", "$"				
 ErrorMsj 	    db 	"La clave es incorrecta, intentalo mas tarde", "$"				
 password	    db 'Mau28', "$"						
